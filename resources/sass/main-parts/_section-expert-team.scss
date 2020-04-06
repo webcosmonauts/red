@@ -1,0 +1,71 @@
+.expert-team {
+
+  display: flex;
+  flex-wrap: wrap;
+  background: #fff;
+  padding-top: 118px;
+
+  .large-text {
+    margin-bottom: 50px;
+
+  }
+
+  .card-body {
+    text-align: center;
+
+    .icons-logo {
+      display: inline-block;
+      padding: 0;
+      list-style: none;
+
+      li {
+        margin-left: 5px;
+        float: left;
+
+        a {
+          text-decoration: none;
+
+          em {
+            border-radius: 50%;
+            color: #ffff;
+            width: 30px;
+            height: 30px;
+            line-height: 30px;
+
+            &.fa-facebook-f {
+              background-color: #4267B2;
+            }
+
+            &.fa-twitter {
+              background-color: #1DA1F2;
+            }
+
+            &.fa-instagram {
+              background-color: #C1008A;
+            }
+
+            &.fa-pinterest-p {
+              background-color: #BD081B;
+            }
+          }
+        }
+      }
+
+    }
+
+  }
+
+  p {
+    height: 50px;
+    overflow: hidden;
+    margin-bottom: -6px;
+  }
+
+  .btn {
+    margin-top: 40px;
+    border-radius: 0;
+    width: 146px;
+    height: 46px;
+  }
+
+}

@@ -13,12 +13,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::view('/', 'pages.homepage');
-Route::view('projects', 'pages.projects');
-Route::view('partners', 'pages.partners');
-Route::view('news', 'pages.news');
-Route::view('jobs', 'pages.jobs');
-Route::view('contact', 'pages.contact');
-Route::view('contact/order', 'pages.contact-order');
-Route::view('contact/partnership', 'pages.contact-partnership');
-Route::view('about', 'pages.about');
+Route::view('/', 'pages.homepage')->name('homepage');
+Route::view('projects', 'pages.projects')->name('projects');
+Route::view('partners', 'pages.partners')->name('partners');
+Route::view('news', 'pages.news')->name('news');
+Route::view('jobs', 'pages.jobs')->name('jobs');
+Route::view('contact', 'pages.contact')->name('contact');
+//Route::view('contact/order', 'pages.contact-order')->name('contact-order');
+//Route::view('contact/partnership', 'pages.contact-partnership')->name('contact-partnership');
+Route::view('about', 'pages.about')->name('about');

@@ -7,7 +7,8 @@
             <h3 class="text-center">
                 Заявка на позицию волонтёра
             </h3>
-            <form action="">
+            <form action="{{ route('contact-order') }}" method="POST">
+                @csrf
                 <div class="row forms-volunteer-content">
                     <div class="col-sm-12 col-md-8 col-lg-8 forms-volunteer__data">
                         <label for="fio">ФИО</label>

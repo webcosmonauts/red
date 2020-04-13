@@ -7,7 +7,8 @@
             <h3 class="text-center">
                 Заявка на партнёрство
             </h3>
-            <form action="">
+            <form action="{{ route('contact-partnership') }}" method="POST">
+                @csrf
                 <div class="row forms-volunteer-content">
                     <div class="col-sm-12 col-md-8 col-lg-8 forms-volunteer__data">
                         <label for="company">Название компании</label>

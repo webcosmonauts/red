@@ -9,8 +9,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item ">
-                        <a class="nav-link header-nav-hover {{ request()->routeIs('homepage') }}"
-                           title="Go to Main" href="{{ route('homepage') }}">Главная</a>
+                        <a class="nav-link header-nav-hover {{ request()->routeIs('homepage') }}" title="Go to Main" href="{{ route('homepage') }}">Главная</a>
                     </li>
                     <li class="nav-item ">
                         <a class="nav-link header-nav-hover {{ request()->routeIs('news') }}" href="{{ route('news') }}" title="Go to News">Новости</a>

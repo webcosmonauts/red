@@ -1,34 +1,53 @@
-@import "./bootstrap/bootstrap";
-@import "./main-parts/icons";
-@import "./main-parts/text-color";
-@import "./main-parts/font-text";
-@import "./main-parts/header";
-@import "./main-parts/section-slider";
-@import "./main-parts/section-help";
-@import "./main-parts/section-fund";
-@import "./main-parts/section-volunteer";
-@import "./main-parts/section-donation";
-@import "./main-parts/section-сauses";
-@import "./main-parts/section-expert-team";
-@import "./main-parts/section-best-gallery";
-@import "./main-parts/section-event";
-@import "./main-parts/slide-partners";
+@import "bootstrap/bootstrap";
+@import "main-parts/btn-denger";
+@import "main-parts/icons";
+@import "main-parts/text-color";
+@import "main-parts/font-text";
+@import "main-parts/header";
+@import "main-parts/section-slider";
+@import "main-parts/section-help";
+@import "main-parts/section-fund";
+@import "main-parts/section-volunteer";
+@import "main-parts/section-donation";
+@import "main-parts/section-сauses";
+@import "main-parts/section-event";
+@import "main-parts/section-expert-team";
+@import "main-parts/section-best-gallery";
+@import "main-parts/section-testimonial";
+@import "main-parts/section-contact-us";
+@import "main-parts/section-latest-news";
 
-@import "./main-parts/footer";
+
+
+
+@import "main-parts/slide-partners";
+
+@import "main-parts/footer";
+
 
 //forms-volunteer
-@import "./vacancies/forms-volunteer";
+@import "vacancies/forms-volunteer";
 
-@import "./dist/lightbox.min";
+@import "dist/lightbox.min";
 
 
 //About Us
-@import "./about_us/section-about-us";
+@import "about_us/section-about-us";
 
-@import "./OurProject/section-fund-helps";
-@import "./OurProject/section-projects";
-@import "./OurProject/section-questions";
+//our-project
+@import "our-project/section-fund-helps";
+@import "our-project/section-projects";
+@import "our-project/section-questions";
 
-@import "./vacancies/vacancies-main";
+//vacancies
+@import "vacancies/vacancies-main";
 
-@import "./news/news-main";
+//news
+@import "news/news-main";
+@import "news/single-news";
+
+//Button Up to top
+@import "main-parts/up-to-top";
+@media screen  {
+
+}

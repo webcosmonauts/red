@@ -1,12 +1,8 @@
 .section-help{
   height: 300px;
-  margin-bottom: 133px;
+  margin-bottom: 15px;
 }
-@include media-breakpoint-down(sm) {
-  .section-help {
-    margin-bottom: 15px;
-  }
-  }
+
 @include media-breakpoint-only(md) {
   .section-help {
     margin-bottom: 35px;
@@ -37,7 +33,20 @@
 }
 
 .help h4{
-  color: $textRed;
+  @include fonBold($fonPoppins, 20px, $textRed);
   padding-top: 51px;
   padding-bottom: 29px;
+}
+////адаптив
+
+@include media-breakpoint-down(sm) {
+  .section-help span[class^=icon], .section-help .icon {
+    padding-top: 39px;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+  }
+}
+.help-content {
+  padding-bottom: 110px;
 }

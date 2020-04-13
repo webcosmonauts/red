@@ -9,9 +9,15 @@
     @include('components.contact-header')
     @include('components.navbar')
     @yield('content')
+
+    {{-- Button - to top --}}
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+        <em class="fas fa-angle-up"></em>
+    </button>
+
     @include('components.footer')
 @endsection
 
 @push('body')
-    <script src="/build/js/script.min.js"></script>
+    <script src="/js/script.min.js"></script>
 @endpush

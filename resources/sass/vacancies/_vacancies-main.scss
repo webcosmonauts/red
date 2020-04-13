@@ -1,45 +1,80 @@
 .steps-to-volunteer .steps {
   font-family: Poppins, sans-serif;
-  h2{
+
+  h2 {
     font-weight: bold;
     padding: 25px 0;
   }
-  .row{
+
+  .row {
     h1 {
       font-weight: bolder;
       margin-top: 25px;
     }
-    h5{
+
+    h5 {
       line-height: 2rem;
+    }
+
+    .card {
+      max-width: 260px;
     }
   }
 
   em {
-    border-radius: 50%;
-    background-color: red;
-    width: 35px;
-    height: 35px;
-    line-height: 2.8rem;
+    @include NextStep;
+  }
+
+  @media (max-width: 992px) {
+    .row {
+      flex-direction: column;
+    }
   }
 }
 
-.vacancies{
-  h1{
+.vacancies {
+  h1 {
     padding: 3%;
     font-weight: bolder;
   }
-.row {
-  background-color: #FFFFFF;
 
-  h2 {
-    margin: 30px auto;
+  .row {
+    background-color: #FFFFFF;
+
+    a:hover {
+      text-decoration: none;
+
+      h2 {
+        color: #ca0523;
+      }
+    }
+
+    a h2 {
+      margin: 30px auto;
+      font-weight: bold;
+      color: $textblack;
+    }
+
+    p {
+      margin: 30px auto;
+    }
+
+    .btn {
+      box-shadow: 0 0 15px -5px $bgIconDon;
+    }
   }
 
-  p {
-    margin: 30px auto;
+  @media (max-width: 992px) {
+    .btn {
+      margin-bottom: 30px;
+    }
+    img {
+      width: 100%;
+      height: auto;
+    }
   }
 }
-}
+
 .divider {
   width: 100%;
   height: 30px;

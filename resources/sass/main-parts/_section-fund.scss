@@ -2,6 +2,7 @@
   .section-fund-left {
     h4 {
       @include fonBold($fonNunitoSans, 20px, $textRed);
+      margin-bottom: 30px;
     }
 
     h3 {
@@ -67,8 +68,5 @@
   .btn__fund {
     background: $bgButton;
     margin: 79px 0px;
-    &:hover {
-      background: #000000;
-    }
   }
 }

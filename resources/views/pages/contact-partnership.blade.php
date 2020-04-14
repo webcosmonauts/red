@@ -13,8 +13,8 @@
                     <div class="col-sm-12 col-md-8 col-lg-8 forms-volunteer__data">
                         <label for="company">Название компании</label>
                         <input type="text" name="company" id="company" class="form-control">
-                        <label for="page_address">Адрес страницы в интернет</label>
-                        <input type="text" name="page_address" id="page_address" class="form-control">
+                        <label for="link">Адрес страницы в интернет</label>
+                        <input type="text" name="link" id="link" class="form-control">
                         <label for="email">Электронная почта</label>
                         <input type="text" name="email" id="email" class="form-control">
                         <label for="about_company">Немного о компании</label>

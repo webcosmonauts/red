@@ -1,6 +1,7 @@
 @extends('layouts.page')
 
 @section('content')
+    @dump($errors)
     {{-- Секция для формы "Заявка на позицию волонтёра" --}}
     <section class="forms-volunteer">
         <div class="container">
@@ -13,8 +14,8 @@
                     <div class="col-sm-12 col-md-8 col-lg-8 forms-volunteer__data">
                         <label for="fio">ФИО</label>
                         <input type="text" name="fio" id="fio" class="form-control">
-                        <label for="date_birth">Дата рождения</label>
-                        <input type="text" name="date_birth" id="date_birth" class="form-control">
+                        <label for="birthday">Дата рождения</label>
+                        <input type="text" name="birthday" id="birthday" class="form-control">
                         <label for="email">Электронная почта</label>
                         <input type="text" name="email" id="email" class="form-control">
                         <label for="nationality">Национальность</label>
